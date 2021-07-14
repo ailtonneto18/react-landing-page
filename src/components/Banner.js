@@ -16,7 +16,7 @@ function Banner() {
                         <p>
                             {bannerData.desc}
                         </p>
-                        <a href="#" className="banner-btn">Learn More</a>
+                        <a href="#" className="banner-btn">Saiba Mais</a>
                     </div>
                 </div>
             </div>

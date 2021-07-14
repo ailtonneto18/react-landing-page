@@ -11,7 +11,7 @@ function CallToAction() {
                     <FiCode className="FiCode" />
                     <h2>We're react dev team</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse voluptatem dolores atque asperiores maxime blanditiis, quos natus consequatur adipisci quaerat praesentium neque tempora rem deserunt iste, nam quisquam provident!</p>
-                    <a href="#" className="cta-btn">get to know us</a>
+                    <a href="#" className="cta-btn">conheça-nos</a>
                 </div>
             </div>
         </div>

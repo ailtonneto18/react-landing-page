@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import Banner from './components/Banner'
-import Content from './components/Content'
+import ContactForm from './components/ContactForm'
 import CTA from './components/CallToAction'
 import Footer from './components/Footer'
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Banner />
-      <Content />
+      <ContactForm />
       <CTA />
       <Footer />
     </>
