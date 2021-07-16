@@ -4,7 +4,7 @@ import "./Footer.css"
 function Footer() {
     return (
         <div className="footer">
-            <p>Copyright 2021. All Rights Reserved.</p>
+            <p>COACH DE LEAGUE OF LEGENDS</p>
         </div>
     )
 }

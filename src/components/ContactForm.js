@@ -11,7 +11,7 @@ export default function ContactForm() {
     emailjs.sendForm('gmailMenssage', 'template_ofdr06j', e.target, 'user_i7CGhoKOVMYzcVDKmDVP8')
 
         .then((result) => {
-            alert("Mensagem enviada com sucesso! 👍");
+            alert("Escrição enviada com sucesso! 👍");
            
         }, (error) => {
             alert(error.message)
@@ -23,7 +23,7 @@ export default function ContactForm() {
     }
     return(
         <div>
-            <div className="container">
+            <div  className="container">
             <h2>Contato</h2>
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
@@ -39,7 +39,7 @@ export default function ContactForm() {
 
                         
                         <div className="col-lg-8 col-sm-12 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Enviar mensagem"></input>
+                            <input type="submit" className="btn btn-info" value="Enviar escrição"></input>
                         </div>
                     </div>
                 </form>
